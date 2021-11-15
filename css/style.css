@@ -1,0 +1,60 @@
+.starter-page-header i{
+    font-size: 22px;
+    color: #0C9A9A;
+}
+
+.navigation-header{
+    margin-left: 5px!important;
+    margin-right: 35px!important;
+}
+
+.close-button-top{
+    text-align: center;
+    margin-left: -10px!important;
+}
+
+.close-button-top i{
+    font-size: 20px;
+    color: #0C9A9A;
+}
+
+.indicator-set{
+    margin-right: -5px!important;
+}
+
+.page-indicator{
+    display: inline-block;
+    width: 18px;
+    height: 9px;
+    border-radius: 5px;
+    background-color: #d7d6d6;
+    margin: 0 1px 3px 1px;
+}
+
+.page-indicator-active{
+    background-color: #0C9A9A!important;
+}
+
+.navigation-page-count p{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.intro-body-points p{
+    font-weight: 600;
+}
+
+.right-arrow-pointer i{
+    font-size: 20px;
+    color: #0C9A9A;
+}
+
+.bottom-block-button{
+    display: block;
+    background-color: #0C9A9A;
+    color: #ffffff;
+}
+
+.bottom-block-button:active{
+    color: #ffffff;
+}
