@@ -14,16 +14,16 @@
 }
 
 .indicator-set{
-    margin-right: -12px!important;
+    margin-right: -15px!important;
 }
 
 .page-indicator{
     display: inline-block;
-    width: 18px;
-    height: 9px;
+    width: 10px;
+    height: 5px;
     border-radius: 5px;
     background-color: #d7d6d6;
-    margin: 0 1px 3px 1px;
+    margin: 0 0.5px 3px 0.5px;
 }
 
 .page-indicator-active{
@@ -52,4 +52,16 @@
 
 .bottom-block-button:active{
     color: #ffffff;
+}
+
+.about-img{
+    border-radius: 5px;
+}
+
+.bg-droobi-color{
+    background-color: #0C9A9A;
+}
+
+.body-points{
+    text-align: left!important;
 }
