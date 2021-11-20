@@ -65,3 +65,120 @@
 .body-points{
     text-align: left!important;
 }
+
+.quiz-number-idt{
+    font-size: 22px;
+    color: #0C9A9A;
+    font-weight: 600;
+}
+
+.answer-justify-card{
+    padding: 0.5rem 0.5rem!important;
+    text-align: center;
+    background-color: #13ffff;
+    color: #ffffff;
+    border-radius: 10px!important;
+}
+
+.answer-justify-card p{
+    margin-bottom: -1px!important;
+}
+
+.answer-indicator-card{
+    border-radius: 10px!important;
+}
+
+.wrong-answer-justify-card{
+    padding: 0.5rem 0.5rem!important;
+    text-align: center;
+    background-color: #ec1f1f;
+    color: #ffffff;
+    border-radius: 10px!important;
+}
+
+.wrong-answer-justify-card p{
+    margin-bottom: -1px!important;
+}
+
+.wrong-answer-indicator-card{
+    border-radius: 10px!important;
+}
+
+/* The container */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.right-answer-check{
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    -webkit-appearance: none;
+    outline: 0;
+}
+
+.right-answer-check:checked {
+    background-image: url('../images/right.png');
+}
+.right-answer-check:not(:checked) {
+    background-image: url('../images/first.png');
+}
+
+.wrong-answer-check{
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    -webkit-appearance: none;
+    outline: 0;
+}
+
+.wrong-answer-check:checked {
+    background-image: url('../images/wrong.png');
+}
+.wrong-answer-check:not(:checked) {
+    background-image: url('../images/first.png');
+}
+
+.answer-indicator{
+    margin-top: -8px;
+    margin-bottom: 10px;
+    transition: all ease-in-out;
+}
+
+.wrong-answer-indicator{
+    margin-top: -8px;
+    margin-bottom: 10px;
+    transition: all ease-in-out;
+}
+
+.show{
+    display: block!important;
+}
+
+.unshow{
+    display: none;
+}
