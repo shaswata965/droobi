@@ -1,6 +1,6 @@
 .starter-page-header i{
     font-size: 22px;
-    color: #0C9A9A;
+    color: #27BDBE;
 }
 
 .navigation-header{
@@ -10,7 +10,7 @@
 
 .close-button-top i{
     font-size: 20px;
-    color: #0C9A9A;
+    color: #27BDBE;
 }
 
 .indicator-set{
@@ -27,7 +27,7 @@
 }
 
 .page-indicator-active{
-    background-color: #0C9A9A!important;
+    background-color: #27BDBE!important;
 }
 
 .navigation-page-count p{
@@ -41,25 +41,31 @@
 
 .right-arrow-pointer i{
     font-size: 20px;
-    color: #0C9A9A;
+    color: #27BDBE;
 }
 
 .bottom-block-button{
     display: block;
-    background-color: #0C9A9A;
+    background-color: #27BDBE;
     color: #ffffff;
 }
 
-.bottom-block-button:active{
+.bottom-block-button:active,.bottom-block-button:focus {
+    color: #ffffff;
+    outline: none !important;
+    box-shadow: none;
+}
+
+.bottom-block-button:hover{
     color: #ffffff;
 }
 
 .about-img{
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .bg-droobi-color{
-    background-color: #0C9A9A;
+    background-color: #27BDBE;
 }
 
 .body-points{
@@ -68,16 +74,16 @@
 
 .quiz-number-idt{
     font-size: 22px;
-    color: #0C9A9A;
+    color: #27BDBE;
     font-weight: 600;
 }
 
 .answer-justify-card{
     padding: 0.5rem 0.5rem!important;
     text-align: center;
-    background-color: #13ffff;
-    color: #ffffff;
+    color: #27BDBE;
     border-radius: 10px!important;
+    border:none!important;
 }
 
 .answer-justify-card p{
@@ -86,13 +92,13 @@
 
 .answer-indicator-card{
     border-radius: 10px!important;
+    border:none!important;
 }
 
 .wrong-answer-justify-card{
     padding: 0.5rem 0.5rem!important;
     text-align: center;
-    background-color: #ec1f1f;
-    color: #ffffff;
+    color: #ec1f1f;
     border-radius: 10px!important;
 }
 
@@ -102,6 +108,7 @@
 
 .wrong-answer-indicator-card{
     border-radius: 10px!important;
+    border:none!important;
 }
 
 /* The container */
@@ -181,4 +188,19 @@
 
 .unshow{
     display: none;
+}
+
+.info-only-card{
+    height: 80vh;
+}
+
+@media  only screen and (max-width: 412px) and (min-width: 360px) {
+    .page-indicator{
+        display: inline-block;
+        width: 12px;
+        height: 5px;
+        border-radius: 5px;
+        background-color: #d7d6d6;
+        margin: 0 1px 3px 1px;
+    }
 }
