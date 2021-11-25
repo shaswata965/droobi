@@ -194,13 +194,66 @@
     height: 80vh;
 }
 
-@media  only screen and (max-width: 412px) and (min-width: 360px) {
+.lessons-icon{
+    height: 32px;
+    width: 32px;
+}
+
+.card-text-opacity{
+    opacity: 0.9;
+}
+
+@media  only screen and (max-width: 3922px) and (min-width: 360px) {
+    .page-indicator{
+        display: inline-block;
+        width: 10px;
+        height: 5px;
+        border-radius: 5px;
+        background-color: #d7d6d6;
+        margin: 0 1px 4px 1px;
+    }
+}
+
+@media  only screen and (max-width: 412px) and (min-width: 393px) {
     .page-indicator{
         display: inline-block;
         width: 12px;
         height: 5px;
         border-radius: 5px;
         background-color: #d7d6d6;
-        margin: 0 1px 3px 1px;
+        margin: 0 1px 4px 1px;
+    }
+}
+
+@media  only screen and (max-width: 445px) and (min-width: 413px) {
+    .page-indicator{
+        display: inline-block;
+        width: 13px;
+        height: 6.5px;
+        border-radius: 5px;
+        background-color: #d7d6d6;
+        margin: 0 1px 4px 1px;
+    }
+}
+
+@media  only screen and (max-width: 460px) and (min-width: 446px) {
+    .page-indicator{
+        display: inline-block;
+        width: 14px;
+        height: 7px;
+        border-radius: 5px;
+        background-color: #d7d6d6;
+        margin: 0 1px 4px 1px;
+    }
+}
+
+@media  only screen and (max-width: 480px) and (min-width: 461px) {
+    .page-indicator{
+        display: inline-block;
+        width: 14.5px;
+        height: 7px;
+        border-radius: 5px;
+        background-color: #d7d6d6;
+        margin: 0 1px 4px 1px;
     }
 }
