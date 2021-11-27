@@ -1,74 +1,161 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Signs and Symptoms</title>
-        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css'/>
-        <script src="https://use.fontawesome.com/09675851a6.js"></script>
-        <link rel="stylesheet" href="../../css/style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>1 - Lesson Start Screen</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/88b2b303d8.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/space.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 </head>
     <body class="bg-light" style="text-align: right; font-family: 'Times';">
-        <header class="shadow-sm position-relative bg-info p-3">
-            <div class="row align-items-center">
-                <div class="col d-flex justify-content-start">
-                    <a href="index.html" class="text-white"><img src="../images/icon-cross.svg" width="16px" height="16px" alt="close"></a>
-                </div>
-                <div class="col text-center text-white">
-                    <strong>الدرس الاول</strong>
-                </div>
-                <div class="col d-flex justify-content-end">
-                    <a href="13.html" class="text-white text-nowrap"><small>التالي</small></a>
-                </div>
+    <header class="position-relative p-3">
+        <div class="row align-items-center">
+            <div class="col-12 text-center starter-page-header">
+                <img src="../images/lessons.PNG" alt="lessons icon" class="img-fluid lessons-icon" />&nbsp;&nbsp;&nbsp;<strong>الدرس الاول</strong>
             </div>
-        </header>
+        </div>
+    </header>
         <main class="">
-            <nav class="nav justify-content-center timeline my-3">
-                <a href="#" class="nav-link active"><i class="fa fa-circle"></i></a>
-                <a href="#" class="nav-link active"><i class="fa fa-circle"></i></a>
-                <a href="#" class="nav-link active"><i class="fa fa-circle"></i></a>
-                <a href="#" class="nav-link active"><i class="fa fa-circle"></i></a>
-                <a href="#" class="nav-link active"><i class="fa fa-circle"></i></a>
-                <a href="#" class="nav-link active"><i class="fa fa-circle"></i></a>
-                <a href="#" class="nav-link active"><i class="fa fa-circle"></i></a>
-                <a href="#" class="nav-link active"><i class="fa fa-circle"></i></a>
-                <a href="#" class="nav-link active"><i class="fa fa-circle"></i></a>
-                <a href="#" class="nav-link active"><i class="fa fa-circle"></i></a>
-                <a href="#" class="nav-link active"><i class="fa fa-circle"></i></a>
-                <a href="#" class="nav-link active"><i class="fa fa-circle"></i></a>
-                <a href="#" class="nav-link disabled"><i class="fa fa-circle"></i></a>
-                <a href="#" class="nav-link disabled"><i class="fa fa-circle"></i></a>
-                <a href="#" class="nav-link disabled"><i class="fa fa-circle"></i></a>
+            <nav class="my-2">
+                <div class="row justify-content-between navigation-header">
+                    <div class="col-1 navigation-page-count">
+                        <p>١٢/١٥</p>
+                    </div>
+                    <div class="col-10 text-center indicator-set arabic-indicator-set">
+                        <a class="page-indicator page-indicator-active first-component-indicator"></a>
+                        <a class="page-indicator page-indicator-active"></a>
+                        <a class="page-indicator page-indicator-active"></a>
+                        <a class="page-indicator page-indicator-active"></a>
+                        <a class="page-indicator page-indicator-active"></a>
+                        <a class="page-indicator page-indicator-active"></a>
+                        <a class="page-indicator page-indicator-active"></a>
+                        <a class="page-indicator page-indicator-active"></a>
+                        <a class="page-indicator page-indicator-active"></a>
+                        <a class="page-indicator page-indicator-active"></a>
+                        <a class="page-indicator page-indicator-active"></a>
+                        <a class="page-indicator page-indicator-active"></a>
+                        <a class="page-indicator"></a>
+                        <a class="page-indicator"></a>
+                        <a class="page-indicator"></a>
+                    </div>
+                    <div class="col-1">
+                        <div class="col-12 d-flex">
+                            <a href="index_ar.html" class="close-button-top" role="button"><i class="fas fa-times-circle"></i></a>
+                        </div>
+                    </div>
+                </div>
             </nav>
             <div class="container-fluid">
                 <div class="row">
                     <div class="col">
-                        <h5 class="text-center">أعراض وعلامات مرض السكري</h5>
-                        <hr class="special mb-5">
-                        <p>تختلف أعراض وعلامات ارتفاع  أو انخفاض مستوى السكر في الدم من شخص لآخر فبعض الأشخاص قد لا يواجهون أي أعراض .بعض اعراض السكري تشمل:</p>
-                        <ul>
-                            <li>الشعور بالتعب. (شعور بالضعف ، تعب ، ونعاس)</li>
-                            <li>التبول بشكل متكرر.</li>
-                            <li>زيادة الشعور بالعطش</li>
-                            <li>زيادة الشعور بالجوع.</li>
-                            <li>الرؤية الغير واضحة.</li>
-                            <li>انخفاض فى الوزن غير مبرر.</li>
-                            <li>بطء في التئام الجروح.</li>
-                            <li>الشعور بالتنميل فى اطراف الايدي و الارجل.</li>
-                            <li>الشعور بالغثيان والتقيء( المصابين بالنوع الأول مع الحامض الكيتوني السكري )</li>
-                            <li>زيادة الالتهابات الجلدية</li>
-                            <li>لا وجود الأعراض</li>
-                        </ul>
+                        <div class="card shadow border-0 mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">أعراض وعلامات مرض السكري</h5>
+                                <p class="card-text mb-4 mt-3 card-text-opacity">تختلف أعراض وعلامات ارتفاع  أو انخفاض مستوى السكر في الدم من شخص لآخر فبعض الأشخاص قد لا يواجهون أي أعراض .بعض اعراض السكري تشمل:</p>
+                                <div class="row my-3">
+                                    <div class="col-2 pt-2 right-arrow-pointer">
+                                        <i class="fas fa-angle-left"></i>
+                                    </div>
+                                    <div class="col pl-0 intro-body-points">
+                                        <p class="m-0">الشعور بالتعب. (شعور بالضعف ، تعب ، ونعاس)</p>
+                                    </div>
+                                </div>
+                                <div class="row my-3">
+                                    <div class="col-2 right-arrow-pointer">
+                                        <i class="fas fa-angle-left"></i>
+                                    </div>
+                                    <div class="col pl-0 intro-body-points">
+                                        <p class="m-0">التبول بشكل متكرر.</p>
+                                    </div>
+                                </div>
+                                <div class="row my-3">
+                                    <div class="col-2 right-arrow-pointer">
+                                        <i class="fas fa-angle-left"></i>
+                                    </div>
+                                    <div class="col pl-0 intro-body-points">
+                                        <p class="m-0">زيادة الشعور بالعطش</p>
+                                    </div>
+                                </div>
+                                <div class="row my-3">
+                                    <div class="col-2 pt-2 right-arrow-pointer">
+                                        <i class="fas fa-angle-left"></i>
+                                    </div>
+                                    <div class="col pl-0 intro-body-points">
+                                        <p class="m-0">زيادة الشعور بالجوع.</p>
+                                    </div>
+                                </div>
+                                <div class="row my-3">
+                                    <div class="col-2 right-arrow-pointer">
+                                        <i class="fas fa-angle-left"></i>
+                                    </div>
+                                    <div class="col pl-0 intro-body-points">
+                                        <p class="m-0">الرؤية الغير واضحة.</p>
+                                    </div>
+                                </div>
+                                <div class="row my-3">
+                                    <div class="col-2 right-arrow-pointer">
+                                        <i class="fas fa-angle-left"></i>
+                                    </div>
+                                    <div class="col pl-0 intro-body-points">
+                                        <p class="m-0">انخفاض فى الوزن غير مبرر.</p>
+                                    </div>
+                                </div>
+                                <div class="row my-3">
+                                    <div class="col-2 pt-2 right-arrow-pointer">
+                                        <i class="fas fa-angle-left"></i>
+                                    </div>
+                                    <div class="col pl-0 intro-body-points">
+                                        <p class="m-0">بطء في التئام الجروح.</p>
+                                    </div>
+                                </div>
+                                <div class="row my-3">
+                                    <div class="col-2 right-arrow-pointer">
+                                        <i class="fas fa-angle-left"></i>
+                                    </div>
+                                    <div class="col pl-0 intro-body-points">
+                                        <p class="m-0">الشعور بالتنميل فى اطراف الايدي و الارجل.</p>
+                                    </div>
+                                </div>
+                                <div class="row my-3">
+                                    <div class="col-2 right-arrow-pointer">
+                                        <i class="fas fa-angle-left"></i>
+                                    </div>
+                                    <div class="col pl-0 intro-body-points">
+                                        <p class="m-0">الشعور بالغثيان والتقيء( المصابين بالنوع الأول مع الحامض الكيتوني السكري )</p>
+                                    </div>
+                                </div>
+                                <div class="row my-3">
+                                    <div class="col-2 pt-2 right-arrow-pointer">
+                                        <i class="fas fa-angle-left"></i>
+                                    </div>
+                                    <div class="col pl-0 intro-body-points">
+                                        <p class="m-0">زيادة الالتهابات الجلدية</p>
+                                    </div>
+                                </div>
+                                <div class="row my-3">
+                                    <div class="col-2 right-arrow-pointer">
+                                        <i class="fas fa-angle-left"></i>
+                                    </div>
+                                    <div class="col pl-0 intro-body-points">
+                                        <p class="m-0">لا وجود الأعراض</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="row mt-3">
-                    <div class="col d-flex justify-content-start text-left px-1">
-                        <a href="11.html" class="btn btn-link text-info mb-3">رجع</a>
+                <div class="row justify-content-around mt-3">
+                    <div class="col-5 text-left px-1">
+                        <a href="13_ar.html" class="btn bottom-block-button mb-3" role="button">التالي</a>
                     </div>
-                    <div class="col d-flex justify-content-end px-1">
-                        <a href="13.html" class="btn btn-link text-info mb-3">التالي</a>
+                    <div class="col-5 px-1">
+                        <a href="11_ar.html" class="btn bottom-block-button mb-3" role="button">خلف</a>
                     </div>
                 </div>
             </div>
