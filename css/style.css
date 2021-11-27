@@ -17,6 +17,10 @@
     margin-right: -15px!important;
 }
 
+.arabic-indicator-set{
+    margin-left: -25px!important;
+}
+
 .page-indicator{
     display: inline-block;
     width: 10px;
