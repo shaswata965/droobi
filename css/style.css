@@ -3,6 +3,18 @@
     color: #27BDBE;
 }
 
+.arabic-close{
+    margin-right: -15px;
+}
+
+.arabic-indicator-set{
+    margin-left: -10px!important;
+}
+
+.arabic-page-count{
+    margin-right: -20px;
+}
+
 .navigation-header{
     margin-left: 5px!important;
     margin-right: 35px!important;
@@ -15,10 +27,6 @@
 
 .indicator-set{
     margin-right: -15px!important;
-}
-
-.arabic-indicator-set{
-    margin-left: -25px!important;
 }
 
 .page-indicator{
@@ -207,7 +215,7 @@
     opacity: 0.9;
 }
 
-@media  only screen and (max-width: 3922px) and (min-width: 360px) {
+@media  only screen and (max-width: 392px) and (min-width: 360px) {
     .page-indicator{
         display: inline-block;
         width: 10px;
